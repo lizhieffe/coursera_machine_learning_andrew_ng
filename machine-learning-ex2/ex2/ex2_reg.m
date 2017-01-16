@@ -25,6 +25,7 @@ clear ; close all; clc
 %  contains the label (y).
 
 data = load('ex2data2.txt');
+data = load('ex2data_test.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 
 plotData(X, y);
